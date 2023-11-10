@@ -119,18 +119,16 @@ const FAQPage = () => {
             headerText="What kinds of projects qualify?"
           >
             <p>
-              A Fellow candidate must have a project that is mutually
-              cooperative with the Ethereum ecosystem. It doesn't have to
-              directly integrate with Ethereum to qualify, but needs to be
-              on-balance 'good' for the ecosystem and future Ethereum community.
+              The project can be just an idea, in early stages, or already ongoing. 
+		    It can be building an application, conducting research, building a community, 
+		    or organizational program/initiative. Whatever it is, the project must enable the 
+		    flourishing of regions, populations, or communities that are underrepresented in 
+			    the Ethereum ecosystem. The project should also be open-source so that others can benefit 
+			    from your learnings and outcomes. 
             </p>
             <p>
-              The project can be just an idea, in early stages, or already
-              ongoing. It can be building an application, research, or an organizational 
-              program/initiative. Whatever it is, the project must enable the 
-              flourishing of regions, populations, or communities 
-              that are underrepresented in the existing Ethereum
-              ecosystem today.
+              Through your tangible story, we hope to tell part of the bigger Ethereum narrative and how it is reaching the
+		wider community.
             </p>
           </AccordionSection>
           <HR />
@@ -155,9 +153,10 @@ const FAQPage = () => {
             setExpanded={setExpanded}
             headerText="What are the key dates of the program?"
           >
-            <p>Program Duration: July 2023 - January 2024</p>
+            <p>Program Duration: Program Duration: April 2024 - October 2024</p>
             <p>While the official duration of the fellowship is six months, we expect 
               and hope fellows remain consistent contributors to the Ethereum community as alumni.
+We will help you define what milestones you can accomplish for the 6 months of the Fellowship.
             </p>
 
           </AccordionSection>
@@ -183,7 +182,7 @@ const FAQPage = () => {
                 after the fellowship is complete
               </li>
               <li>
-                Participating in cohort-wide activities on a monthly basis
+                Participating in cohort-wide activities on a monthly basis and engage frequently with the team and the Fellows
               </li>
               <li>
                 Sharing their projects/research in relevant local, regional, or
@@ -191,7 +190,7 @@ const FAQPage = () => {
               </li>
             <p>
               Regarding time commitment, 
-              expect to dedicate around 20 hours per month to the Fellowship.
+              expect to dedicate around 20 hours per month to the Fellowship program and its activities.
             </p>
             </ul>
           </AccordionSection>
@@ -252,6 +251,24 @@ const FAQPage = () => {
                 Bringing web3 to {" "}
                 <Link to="https://www.scout.org/">the global scouting movement</Link>{" "}
               </li>
+		<li>
+		Digital repatriation of art and revenue sharing
+		</li>
+		
+		<li>
+blockchain solutions in war-torn countries
+		</li>
+<li>
+impact certificates for investigative journalists
+	</li>
+<li> 
+bringing DeFi loans to those receiving crypto
+</li>
+<li> 			
+retroactive solidarity payments in education and employment
+</li>
+
+			
            </ul>
           </AccordionSection>
           <HR />
@@ -304,6 +321,41 @@ const FAQPage = () => {
           </AccordionSection>
           <HR />
 
+	<AccordionSection
+            key={13}
+            i={13}
+            expanded={expanded}
+            setExpanded={setExpanded}
+            headerText="When do I find out about the selection process?"
+          >
+            <p>
+             Applications will be reviewed on a rolling basis. Interviews will
+		take place with short-listed candidates, and we expect the 
+		selection process to be finalized before mid-April.
+		Independent of their selection, all candidates will be informed about the outcome. 
+            </p>
+          </AccordionSection>
+          <HR />
+
+
+		<AccordionSection
+             key={9}
+            i={9}
+            expanded={expanded}
+            setExpanded={setExpanded}
+            headerText="How can I clarify any questions about the process?"
+          >
+            <p>
+              We will run two office hours sessions: 
+
+1st Session: Dec 6th, 2023 at 4 pm UTC
+2nd Session: Jan 9th, 2024 at 6 am UTC
+Please apply to attend one of the office hours by submitting
+	your information and questions <Link to="https://officehours-nxbnfp4.paperform.co">here.</Link>
+            </p>
+          </AccordionSection>
+          <HR />
+
           <AccordionSection
              key={9}
             i={9}
@@ -312,7 +364,7 @@ const FAQPage = () => {
             headerText="I want to stay in the loop about the Next Billion Fellows and related news. How can I find out more about it?"
           >
             <p>
-              You can subscribe to receive updates from our <Link to="TODO: add google groups"> Google group</Link>
+              You can subscribe to receive updates from our <Link to="https://groups.google.com/a/ethereum.org/g/nextbillion-fellowship-updates?pli=1"> Google group</Link>
             </p>
           </AccordionSection>
           <HR />
