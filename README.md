@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0c117ad4-cd27-49b6-b75e-81bd74ca6e8e/deploy-status)](https://app.netlify.com/sites/goofy-hermann-031648/deploys)
-
 <p align="center">
   <img src="./src/images/fellowship-program-logo.png" width="60%" alt="Ethereum Foundation Fellowship Program">
 </p>
