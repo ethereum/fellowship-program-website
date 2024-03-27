@@ -1,43 +1,30 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0c117ad4-cd27-49b6-b75e-81bd74ca6e8e/deploy-status)](https://app.netlify.com/sites/goofy-hermann-031648/deploys)
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p align="center">
-  <img src="./src/images/fellowship-program-logo.png" width="60%" alt="Ethereum Foundation Fellowship Program">
-</p>
-<h1 align="center">
-  Ethereum Foundation Fellowship Program
-</h1>
+## Getting Started
 
-The Ethereum Foundation Fellowship Program is an opportunity to experiment with using Ethereum to help solve pressing social, economic, and environmental challenges in developing countries.
+First, run the development server:
 
-This repository holds the codebase to our website, [fellowship.ethereum.foundation](https://fellowship.ethereum.foundation)
-
-## Local development
-
-1. [Set up your development environment](https://www.gatsbyjs.org/tutorial/part-zero/)
-
-2. Clone this project
-
-```
-$ git clone git@github.com:ethereum/fellowship-program-website.git && cd fellowship-program-website
-
+```bash
+yarn dev
 ```
 
-3. Install dependencies
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-```
-$ yarn
-```
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-4. Start developing!
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-```
-yarn develop
-```
+## Learn More
 
-## Learning Gatsby
+To learn more about Next.js, take a look at the following resources:
 
-Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.org/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.org/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
